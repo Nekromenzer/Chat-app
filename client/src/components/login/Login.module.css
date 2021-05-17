@@ -1,0 +1,77 @@
+.container {
+  height: 100%;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 40px;
+}
+
+.login-btn {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  color: white;
+  background: var(--inactive, #d1d9d9);
+  cursor: pointer;
+  margin-left: -31px;
+  margin-top: 0;
+  outline: 0;
+}
+
+.login-btn:focus {
+  border: 1px solid va(--sec-col);
+  border-color: var(--sec-col, #2a9d8f);
+}
+.login-btn:hover {
+  background: var(--sec-col, #2a9d8f);
+}
+
+.active {
+  background: var(--sec-col, #2a9d8f);
+  border: 1px solid va(--sec-col);
+}
+
+.login-input {
+  width: 100%;
+  min-width: 400px;
+  height: 30px;
+  padding-left: 10px;
+  padding-right: 40px;
+  border: 1px solid var(--inactive, #d1d9d9);
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  outline: 0;
+  -webkit-appearance: none;
+  
+}
+
+input.login-input:focus {
+  border-color: var(--sec-col, #2a9d8f);
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .login-input {
+    min-width: 250px;
+  }
+}
+
+@media (min-width: 420px) and (max-width: 900px) {
+  .login-input {
+    min-width: 250px;
+  }
+}
+
+@media (max-width: 320px) {
+  .login-input {
+    min-width: 250px;
+  }
+}

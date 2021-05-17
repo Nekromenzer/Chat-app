@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 5px 5px 5px;
+  background-color: var(--main-col, #264653);
+  height: 30px;
+}
+
+.exit-btn {
+  border: none;
+  margin-right: 5px;
+  border-radius: 5px;
+  padding-top: 2px;
+  color: black;
+  background: var(--btn-col, #e9c46a);
+  width: 60px;
+  height: 20px;
+}
+
+.exit-btn:hover {
+  background-color: rgb(233, 210, 0);
+}
+
+.msg-send-state {
+  color: white;
+  margin-left: 5px;
+  font-size: 15px;
+}

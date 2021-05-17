@@ -1,0 +1,88 @@
+.container {
+  display: grid;
+  place-items: center;
+}
+
+.wrapper {
+  height: 100vh;
+  min-height: 100%;
+  max-width: 900px;
+  width: 100%;
+  background: white;
+}
+
+.inner-wrapper {
+  /* background: red; */
+  margin: 10px;
+  min-height: 92%;
+  height: 92%;
+  max-height: 92vh;
+}
+
+.messages {
+  height: auto;
+  height: 92%;
+  max-height: 92%;
+  overflow: auto;
+}
+.messages > div::-webkit-scrollbar {
+  width: 0rem !important;
+}
+
+.messages > div::-webkit-scrollbar-track {
+  box-shadow: 0 !important;
+}
+
+.messages > div::-webkit-scrollbar-thumb {
+  background-color: var(--receive-bg) !important;
+}
+
+/* fire-fox */
+.messages > div::-moz-scrollbar {
+  width: 0rem !important;
+}
+
+.messages > div::-moz-scrollbar-track {
+  box-shadow: 0 !important;
+}
+
+.messages > div::-moz-scrollbar-thumb {
+  background-color: var(--receive-bg) !important;
+}
+
+.messages > div {
+  scrollbar-width: none;
+}
+
+/* opera */
+.messages > div::-o-scrollbar {
+  width: 0rem !important;
+}
+
+.messages > div::-o-scrollbar-track {
+  box-shadow: 0 !important;
+}
+
+.messages > div::-o-scrollbar-thumb {
+  background-color: var(--receive-bg) !important;
+}
+
+/* ms */
+.messages > div::-ms-scrollbar {
+  width: 0rem !important;
+}
+
+.messages > div::-ms-scrollbar-track {
+  box-shadow: 0 !important;
+}
+
+.messages > div::-ms-scrollbar-thumb {
+  background-color: var(--receive-bg) !important;
+}
+
+.btn-container {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  max-width: 880px;
+}

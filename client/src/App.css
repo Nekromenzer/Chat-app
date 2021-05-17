@@ -1,0 +1,15 @@
+:root {
+  --main-col: #0c6178;
+  --sec-col: #44c8ec;
+  --btn-col: #e9c46a;
+  --send-bg: #0b93f6;
+  --send-color: white;
+  --receive-bg: #e5e5ea;
+  --receive-text: black;
+}
+
+body {
+  margin: 0;
+  background: #e9e9eb;
+  font-family: Arial, Helvetica, sans-serif;
+}
